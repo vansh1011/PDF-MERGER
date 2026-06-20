@@ -1,16 +1,42 @@
-# React + Vite
+# PDF Merger
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, free tool to merge multiple PDF files into one — right in your browser. No uploads to any server, no sign-up, no backend. Everything happens client-side.
 
-Currently, two official plugins are available:
+🔗 **Live demo: [Live Link](https://pdf-merger-nu-roan.vercel.app/) ** 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Why I built this
 
-## React Compiler
+I've used PDF merge tools before and always found them slower than they needed to be — extra steps, ads, or sign-ups for something that should just work in two clicks. This tool does exactly that: pick your files, choose your pages, merge, done.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Upload multiple PDF files via drag-and-drop or file picker
+- See page count and file size for each uploaded PDF
+- Select specific pages to include from each file
+- Reorder files before merging
+- Remove files before merging
+- Merge into a single downloadable PDF
+- Clear error handling for invalid files or page ranges
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech stack
+
+- React (Vite)
+- pdf-lib — for all PDF parsing and merging, done entirely in the browser
+- Tailwind CSS
+
+## Running locally
+
+```bash
+git clone https://github.com/vansh1011/PDF-MERGER.git
+cd PDF-MERGER
+npm install
+npm run dev
+```
+
+## Built for
+
+This project was built as a trial task for [Digital Heroes](https://digitalheroesco.com).
+
+---
+
+**Vansh Parmar **
