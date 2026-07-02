@@ -35,8 +35,6 @@ npm run dev
 
 ## Built for
 
-This project was built as a trial task for [Digital Heroes](https://digitalheroesco.com).
-
 ---
 
 **Vansh Parmar **
